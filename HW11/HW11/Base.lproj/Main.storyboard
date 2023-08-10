@@ -85,6 +85,9 @@
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MYa-ui-AvK">
                                         <rect key="frame" x="202" y="0.0" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="turnOnAlarm:" destination="BYZ-38-t0r" eventType="valueChanged" id="BH3-U4-Zyu"/>
+                                        </connections>
                                     </switch>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twO-dG-MaB">
                                         <rect key="frame" x="271" y="0.0" width="64" height="31"/>
@@ -99,9 +102,7 @@
                         <color key="tintColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="WVS-Q4-Yrg" firstAttribute="top" secondItem="Cuh-Rc-kH4" secondAttribute="bottom" constant="50" id="0fT-11-7iY"/>
-                            <constraint firstItem="S37-ai-i0x" firstAttribute="top" secondItem="WVS-Q4-Yrg" secondAttribute="bottom" constant="50" id="BIF-Cq-721"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S37-ai-i0x" secondAttribute="trailing" constant="20" id="CUB-eV-cvi"/>
-                            <constraint firstItem="S37-ai-i0x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Eru-MI-vEq"/>
                             <constraint firstItem="S37-ai-i0x" firstAttribute="top" secondItem="WVS-Q4-Yrg" secondAttribute="bottom" constant="50" id="Hdu-wM-Tyj"/>
                             <constraint firstItem="S37-ai-i0x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LIS-Nx-SzF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cuh-Rc-kH4" secondAttribute="trailing" constant="20" id="PGi-2n-Dvh"/>
@@ -112,7 +113,6 @@
                             <constraint firstItem="Cuh-Rc-kH4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jLO-P5-QPG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WVS-Q4-Yrg" secondAttribute="trailing" constant="20" id="kxH-Cg-get"/>
                             <constraint firstItem="Cuh-Rc-kH4" firstAttribute="top" secondItem="3J1-dr-gAd" secondAttribute="bottom" constant="20" id="w0x-ju-jrH"/>
-                            <constraint firstItem="3J1-dr-gAd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="yLu-X7-zfC"/>
                         </constraints>
                     </view>
                     <connections>
@@ -127,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="55.725190839694655" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="55.200000000000003" y="2.9556650246305418"/>
         </scene>
     </scenes>
     <resources>

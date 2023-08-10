@@ -24,18 +24,25 @@ class ViewController: UIViewController {
     
     @IBOutlet var clearBtn: UIButton!
     
- 
     @IBAction func sliderAction(_ sender: Any) {
         slider.minimumValue = 0
         slider.maximumValue = 1
         textField.text = String(slider.value)
+        progressView.progress = Float(slider.value)
     }
-    
     
     @IBAction func datePickerAct(_ sender: Any) {
+        //        if `switch`.isOn == true {
+        //            let time = DateFormatter()
+        //            time.timeStyle = .short
+        //            let choosenTime = time.string(from: datePicker.date)
+        //            setTimeLbl.text = choosenTime
     }
     
-    
+    @IBAction func turnOnAlarm(_ sender: UIButton) {
+       
+    }
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
